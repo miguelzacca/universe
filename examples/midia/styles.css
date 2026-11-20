@@ -5,7 +5,7 @@
   --inset: clamp(1.4rem, 7vw, 7rem);
 }
 * { box-sizing: border-box; }
-body, h1, h2, p { margin: 0; }
+body, h1, h2, p, figure { margin: 0; }
 a { color: inherit; }
 .stage {
   min-block-size: 90svh;
@@ -24,6 +24,29 @@ em { color: #e8b186; }
 .copy p, .proof p { margin-block: 1.5rem; max-inline-size: 36ch; }
 .proof { min-block-size: 65svh; padding: var(--inset); }
 .proof h2 { max-inline-size: 15ch; font-size: clamp(2.9rem, 5vw, 5.4rem); }
+.action {
+  display: inline-flex;
+  align-items: center;
+  gap: .8em;
+  padding: .55em 1.1em;
+  min-height: 44px;
+  border: 1px solid currentColor;
+  border-radius: 2em;
+  text-decoration: none;
+}
+.comparison {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
+  gap: 1em;
+  margin-block: 2rem;
+}
+.comparison img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 1.5rem;
+}
+.comparison figcaption { margin-top: .5em; }
 @media (min-width: 50rem) and (min-height: 38rem) and (prefers-reduced-motion: no-preference) {
   [data-scrub] { min-block-size: 190svh; }
   [data-scrub] .stage { position: sticky; top: 0; min-block-size: 100svh; }

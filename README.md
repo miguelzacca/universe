@@ -21,6 +21,7 @@ on desktop and mobile. Deliver editable code and a working preview.
 
 - [Skill instructions](SKILL.md) and [reusable prompts](prompts/prompts.md)
 - [Visual atlas](references/atlas.md) with research boards, design tokens, and scene notes
+- [Optional two-frame AI video](references/video-por-scroll.md) with storyboard approval, shot direction, a cost estimate, and OpenRouter setup
 - [Scene contract](references/contrato-de-cena.md) and [runnable examples](references/receitas.md) for CSS, GSAP, video, canvas, and Three.js
 - [Browser verification](references/verificacao.md) and [evaluation evidence](evaluations/evidencias-v2.md)
 

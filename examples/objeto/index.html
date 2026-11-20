@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Perfil e material · Laboratório de motion</title>
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="../shared/microinteracoes.css">
   <script type="module" src="./scene.js"></script>
   <main class="page">
     <div class="surface" data-view aria-hidden="true">
@@ -12,10 +13,10 @@
     <section class="copy" aria-labelledby="title">
       <h1 id="title" tabindex="-1">A forma sob <em>outro ângulo.</em></h1>
       <p>Um recorte na borda deixa a espessura visível. Compare a peça de frente e em três quartos.</p>
-      <button type="button" data-load hidden>Ativar vista 3D</button>
+      <button type="button" data-action data-load hidden>Ativar vista 3D</button>
       <div class="views" data-views hidden>
-        <button type="button" data-pose="front" aria-pressed="true">De frente</button>
-        <button type="button" data-pose="angle" aria-pressed="false">Três quartos</button>
+        <button type="button" data-action data-pose="front" aria-pressed="true">De frente</button>
+        <button type="button" data-action data-pose="angle" aria-pressed="false">Três quartos</button>
       </div>
       <p role="status" data-status></p>
       <dl>

@@ -11,8 +11,17 @@ import re
 class ExampleHandler(SimpleHTTPRequestHandler):
     def send_head(self):
         self.remaining = None
+        directory = Path(self.directory).resolve()
+        requested_path = Path(self.translate_path(self.path))
+        path = requested_path.resolve()
+        if any(
+            not candidate.is_relative_to(directory / "examples")
+            or any(part.startswith(".") for part in candidate.relative_to(directory).parts)
+            for candidate in (requested_path, path)
+        ):
+            self.send_error(HTTPStatus.NOT_FOUND)
+            return None
         requested = self.headers.get("Range")
-        path = Path(self.translate_path(self.path))
         if path.suffix != ".mp4" or not requested or not path.is_file():
             return super().send_head()
 

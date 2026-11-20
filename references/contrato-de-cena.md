@@ -13,6 +13,7 @@ Use um quadro de direção para definir geometria, luz, ponto focal, área de te
 | 60–85% | Prova visível ou mudança de composição. Marque uma pausa de leitura e o que o visitante aprende ou seleciona. |
 | 100% | Objeto na chegada, superfície, próximo título ou ação. Mostre a passagem real para o conteúdo seguinte. |
 | Controlador | Gatilho, propriedade, progresso local, duração/distância, curvas, reverse, resize, entrada direta e desligamento. |
+| Tomada aprovada quando houver IA | Dois quadros compatíveis, até dois beats intermediários quando ajudarem, enquadramento mobile, direção do prompt, duração, modelo e custo aprovado. [Fluxo completo](video-por-scroll.md) |
 | Móvel e estático | Enquadramento de retrato, modo touch, foco, fluxo, poster e falha. |
 | Arquivos e teste | Origem/licença, versões, bytes, referência e resultados observáveis nos quadros. |
 

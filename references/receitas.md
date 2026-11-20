@@ -8,12 +8,18 @@ Escolha a técnica pela transformação e pelo gesto do visitante. Use os ensaio
 | --- | --- | --- |
 | Portal, máscara, plano que abre e entrega outro conteúdo | Uvra, Fermento, Maison, Veio | [HTML](../examples/abertura/index.html), [CSS das camadas](../examples/abertura/styles.css), [marcos e variáveis](../examples/abertura/scene.js), [controlador nativo/ScrollTrigger](../examples/shared/scrub.js) |
 | Movimento liga vários beats e propriedades com tempos diferentes | KYVO, Aroeira, Torra | Ensaio de abertura com ScrollTrigger e a receita de timeline abaixo |
-| Viagem pré-renderizada responde à posição | Aroeira, Torra, Sulko | [Ensaio de mídia](../examples/midia/index.html), [seek serializado](../examples/midia/video.js) |
+| Viagem pré-renderizada responde à posição | Aroeira, Torra, Sulko, Veio | [Ensaio de mídia](../examples/midia/index.html), [seek serializado](../examples/midia/video.js), [produção entre dois quadros](video-por-scroll.md) |
 | Um frame exato e ida/volta consistente são determinantes | Sereno, Torra, Sulko | Mesmo [ensaio de mídia](../examples/midia/index.html) com query motor=frames, [cache e desenho](../examples/midia/frames.js) |
 | O visitante precisa mudar perspectiva por decisão própria | Arbo, Grau e os produtos que pedem inspeção | [Ensaio de objeto](../examples/objeto/index.html), [câmera e ciclo de vida Three.js](../examples/objeto/scene.js) |
 | A cena envolve imagem, texto e interface real com movimentos pequenos | Prado, DigiGo, Tona | Use grid e z-index do ensaio. Limite progresso a propriedades que sustentam composição, legibilidade ou demonstração. Para entrada discreta, use IntersectionObserver e classes. |
 
-Rode os ensaios por HTTP a partir da raiz da skill com **python scripts/servir-ensaios.py**. O [servidor local](../scripts/servir-ensaios.py) responde a HTTP Range no vídeo. Abra **/examples/abertura/** ou **/examples/midia/**. Para GSAP e Three.js, instale apenas no diretório dos exemplos com **npm install --prefix examples --ignore-scripts**. Abra **/examples/abertura/?motor=gsap** ou ative a vista em **/examples/objeto/**. A abertura padrão funciona sem instalações. A vista do objeto também funciona como página estática até a escolha do visitante.
+Rode os ensaios por HTTP a partir da raiz da skill com **python scripts/servir-ensaios.py**. O [servidor local](../scripts/servir-ensaios.py) serve os exemplos e responde a HTTP Range no vídeo. Para GSAP, Lenis e Three.js, use **npm install --prefix examples --ignore-scripts**. Abra **/examples/midia/** para seek com scroll suavizado, **/examples/midia/?motor=frames** para canvas ou **/examples/abertura/?motor=gsap** para o recorte em CSS. Use **?suave=0** para comparar GSAP sem a suavização e **?motor=native** no ensaio de mídia para comparação nativa. A abertura padrão funciona sem instalações. A vista do objeto funciona como página estática até a escolha do visitante.
+
+## Scroll suavizado e progresso único
+
+- Comece pelo [motor de scroll](../examples/shared/scroll-motion.js). Lenis suaviza a entrada de roda com ponteiro preciso. ScrollTrigger mede e publica o progresso da cena. O [driver](../examples/shared/scrub.js) aplica o progresso ao quadro e às camadas num único ponto. Com CSS sticky, calcule a distância pela altura da trilha menos a do palco. Para ScrollSmoother use a estrutura e o pin correspondentes ao wrapper transformado.
+- Use um único ticker. Com Lenis no ticker do GSAP, deixe `autoRaf: false`, passe milissegundos como `time * 1000` e sincronize `ScrollTrigger.update`. Cancele o ticker e destrua a instância ao sair. Para projetos com CSS do Lenis, importe a folha da versão instalada e configure regiões com rolagem interna, quando houver.
+- Use suavização moderada. Comece perto de `lerp: 0.10` e teste roda lenta, roda rápida, reversão e parada. Para vídeo, suavize a entrada uma vez e mapeie linearmente o progresso até o último quadro. Uma segunda interpolação longa no seek ou no scrub deixa vídeo e interface atrasados em relação ao gesto. Preserve âncoras, teclado, toque e reduced motion. [Integração oficial do Lenis com GSAP](https://github.com/darkroomengineering/lenis#gsap-scrolltrigger)
 
 ## Arquitetura da passagem
 
@@ -63,7 +69,7 @@ media.add("(min-width: 52rem) and (prefers-reduced-motion: no-preference)", () =
 const disposeScene = () => media.revert();
 ```
 
-Mantenha os elementos do recorte como camadas de apresentação e a informação equivalente em HTML. Meça CLS e custo de pintura ao usar máscara grande. Prefira Transform/Opacity para deslocar camadas complementares. Use Lenis apenas se amortecimento resolver uma necessidade observada, com um dono para RAF e testes de modal, foco e toque. [ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger/) · [gsap.matchMedia](https://gsap.com/docs/v3/GSAP/gsap.matchMedia()/) · [Lenis](https://github.com/darkroomengineering/lenis)
+Mantenha os elementos do recorte como camadas de apresentação e a informação equivalente em HTML. Meça CLS e custo de pintura ao usar máscara grande. Prefira Transform/Opacity para deslocar camadas complementares. O scrub com atraso na timeline deste recorte serve às camadas CSS. Ao sincronizar com vídeo, prefira alimentar um playhead único com o progresso já suavizado. [ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger/) · [gsap.matchMedia](https://gsap.com/docs/v3/GSAP/gsap.matchMedia()/)
 
 ## Vídeo, frames e 3D
 

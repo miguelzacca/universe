@@ -17,6 +17,8 @@ Destino do CTA confirmado por mim: <URL>.
 Material próprio autorizado: <pasta ou links>.
 Ambiente: <repositório, stack ou local de preview>.
 Limites de mídia: <ex.: arquivos próprios e bancos gratuitos, pode gerar imagem>.
+Vídeo gerado via OpenRouter: <quero avaliar o storyboard / seguir sem geração>.
+Ideia de cena: <objeto, transformação ou passagem, se já souber>.
 ```
 
 ## Pedido completo para um ambiente que não carrega skills
@@ -76,4 +78,5 @@ Consulta o atlas, escolhe a transformação principal, constrói a cena e
 revê captura por captura. Continua corrigindo até a revelação e a
 passagem para a próxima seção ficarem claras no desktop e no celular.
 Verifica o modo reduzido, o fallback e o destino comercial.
+Se eu optar por vídeo gerado, mostra primeiro os quadros e a estimativa.
 ```

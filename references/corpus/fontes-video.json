@@ -1,0 +1,695 @@
+[
+  {
+    "id": "aroeira",
+    "case": "Aroeira",
+    "source": "https://universedigital.com.br/portfolio/aroeira",
+    "repository": "https://github.com/miguelzacca/aroeira-lp",
+    "media": "https://profitize.com.br/build/media/1c13ef2c-e230-4ec3-97f0-f974fc64e4b3/previa-card-d3e5e063.mp4",
+    "sha256": "d3e5e063f1e0a69ac3f2c0f104dbead18b42ce6a9cace796f38f7f59676ccdda",
+    "repository_commit": "dbba7aa2c349396b0958e696ae36683bd2eef058",
+    "frames": 405,
+    "last_frame_seconds": 13.466667,
+    "largest_frame_changes_seconds": [
+      4.833,
+      10.3,
+      10.633,
+      10.967,
+      11.367,
+      11.733
+    ]
+  },
+  {
+    "id": "fermento",
+    "case": "Fermento",
+    "source": "https://universedigital.com.br/portfolio/fermento",
+    "repository": "https://github.com/miguelzacca/fermento-lp",
+    "media": "https://profitize.com.br/build/media/b668746d-8be2-4397-a792-a8939dccbdd2/previa-card-4b4aa26b.mp4",
+    "sha256": "4b4aa26b81cf570b7d43a6473d4be9d2195cab3297db8342a028d308a4dcf8a9",
+    "repository_commit": "c85a0c48bdd265ef3a3384f704ce699ed6764424",
+    "frames": 492,
+    "last_frame_seconds": 16.366667,
+    "largest_frame_changes_seconds": [
+      4.6,
+      5.667,
+      6.7,
+      8.033,
+      8.8,
+      11.967
+    ]
+  },
+  {
+    "id": "arbo",
+    "case": "Arbo",
+    "source": "https://universedigital.com.br/portfolio/arbo",
+    "repository": "https://github.com/miguelzacca/arbo-lp",
+    "media": "https://profitize.com.br/build/media/19f71697-2482-4572-9b67-14d0ca9c975c/previa-card-34806ea2.mp4",
+    "sha256": "34806ea23af45efbac4514244cafd314b6d6d733ade781f3098be5e0cdfe60db",
+    "repository_commit": "b0c91c65b0444fea94950b245bbbe94a60955c63",
+    "frames": 886,
+    "last_frame_seconds": 29.5,
+    "largest_frame_changes_seconds": [
+      8.133,
+      15.0,
+      18.333,
+      21.4,
+      22.467,
+      26.2
+    ]
+  },
+  {
+    "id": "grau",
+    "case": "Grau",
+    "source": "https://universedigital.com.br/portfolio/grau",
+    "repository": "https://github.com/miguelzacca/grau-lp",
+    "media": "https://profitize.com.br/build/media/785da241-09fc-4894-a995-d78e3fbc354b/previa-card-77ae4b1b.mp4",
+    "sha256": "77ae4b1b651604b71c2e8cf447449ca123916cdb5348b1852bd413afef919240",
+    "repository_commit": "efb8e512432867ec7a743263e7131bc533460958",
+    "frames": 652,
+    "last_frame_seconds": 21.7,
+    "largest_frame_changes_seconds": [
+      10.833,
+      11.833,
+      15.9,
+      19.367,
+      19.933,
+      20.367
+    ]
+  },
+  {
+    "id": "prado",
+    "case": "Prado",
+    "source": "https://universedigital.com.br/portfolio/prado",
+    "repository": "https://github.com/miguelzacca/prado-lp",
+    "media": "https://profitize.com.br/build/media/9e20d7b7-6432-4ab5-9f58-cbd0a7c8ce2f/previa-card-ba64a828.mp4",
+    "sha256": "ba64a828116aad056ad80ff9c5c05098129b8b3ce5f55f8ff15c3ad00b5c97cf",
+    "repository_commit": "88ad40da51c9a47b0e8a4bd4b7d749933e4751eb",
+    "frames": 528,
+    "last_frame_seconds": 17.566667,
+    "largest_frame_changes_seconds": [
+      7.533,
+      8.933,
+      9.8,
+      13.5,
+      13.867,
+      16.833
+    ]
+  },
+  {
+    "id": "sereno",
+    "case": "Sereno",
+    "source": "https://universedigital.com.br/portfolio/sereno",
+    "repository": "https://github.com/miguelzacca/sereno-lp",
+    "media": "https://profitize.com.br/build/media/d85148ad-1a48-48eb-ac00-2f89d638f1c1/previa-card-5947bb78.mp4",
+    "sha256": "5947bb78afbe547f233a682cb4988e379a4827a6924197f8e80574a6d35465cd",
+    "repository_commit": "15174aa918a072a1b059d820beb27e8f83408e02",
+    "frames": 439,
+    "last_frame_seconds": 14.6,
+    "largest_frame_changes_seconds": [
+      4.033,
+      4.667,
+      10.167,
+      12.4,
+      13.6,
+      13.933
+    ]
+  },
+  {
+    "id": "torra",
+    "case": "Torra",
+    "source": "https://universedigital.com.br/portfolio/torra",
+    "repository": "https://github.com/miguelzacca/torra-lp",
+    "media": "https://profitize.com.br/build/media/b287cd62-a7f3-4a9b-9bc3-57a4ea99de5d/previa-card-54464cd7.mp4",
+    "sha256": "54464cd765e662a5d2fc8288dbbba52819ca959036d7262a99da6ddd4a2abd90",
+    "repository_commit": "daad85c3a2136a4c6e281e70e558b5667ec7c053",
+    "frames": 553,
+    "last_frame_seconds": 18.4,
+    "largest_frame_changes_seconds": [
+      6.133,
+      7.133,
+      10.933,
+      16.433,
+      17.033,
+      17.433
+    ]
+  },
+  {
+    "id": "sulko",
+    "case": "Sulko",
+    "source": "https://universedigital.com.br/portfolio/sulko",
+    "repository": "https://github.com/miguelzacca/sulko-lp",
+    "media": "https://profitize.com.br/build/media/80b0faf1-6417-472e-a428-2efa03decd5d/previa-card-d54c9024.mp4",
+    "sha256": "d54c9024dbf0c7e420e7e8ae7747578e7eaf59002f49db1e8bc1e1153c969314",
+    "repository_commit": "2b27369fc9919910b0e43e464ea43b5157aa9e64",
+    "frames": 687,
+    "last_frame_seconds": 22.866667,
+    "largest_frame_changes_seconds": [
+      16.767,
+      17.1,
+      19.167,
+      19.7,
+      20.5,
+      22.1
+    ]
+  },
+  {
+    "id": "profitize-166b0578",
+    "case": "Uvra",
+    "source": "https://profitize.com.br/build/landing-pages/uvra",
+    "media": "https://profitize.com.br/build/media/7f57314f-1772-4e8f-a25f-1dabac20f9b7/previa-card-166b0578.mp4",
+    "positions": [
+      1
+    ],
+    "sha256": "166b05785b57650948e3bb063f19c9f952f91c79cf7547a69fb08766f56efc41",
+    "frames": 813,
+    "last_frame_seconds": 27.066667,
+    "largest_frame_changes_seconds": [
+      6.4,
+      7.2,
+      7.533,
+      9.033,
+      9.367,
+      13.533
+    ]
+  },
+  {
+    "id": "profitize-a5be3f8a",
+    "case": "Solua",
+    "source": "https://profitize.com.br/build/landing-pages/solua",
+    "media": "https://profitize.com.br/build/media/36b6b6ab-3026-4c48-aba8-b7dc956e4521/previa-card-a5be3f8a.mp4",
+    "positions": [
+      2
+    ],
+    "sha256": "a5be3f8a5f7d2512e4f5ab62a019a3335b36e90676f38d480652b42d76a859b7",
+    "frames": 1796,
+    "last_frame_seconds": 59.833333,
+    "largest_frame_changes_seconds": [
+      19.033,
+      19.6,
+      20.033,
+      25.167,
+      50.033,
+      50.5
+    ]
+  },
+  {
+    "id": "profitize-1524a283",
+    "case": "Ollo",
+    "source": "https://profitize.com.br/build/landing-pages/ollo",
+    "media": "https://profitize.com.br/build/media/4efc310e-70e6-483f-a3f0-87f7692ba36b/previa-card-1524a283.mp4",
+    "positions": [
+      3
+    ],
+    "sha256": "1524a283d4eacd30872945c57f5d19bbbaadabbf4e1a2e5326a96df580eb2033",
+    "frames": 864,
+    "last_frame_seconds": 28.766667,
+    "largest_frame_changes_seconds": [
+      10.4,
+      15.967,
+      16.5,
+      16.867,
+      17.2,
+      17.533
+    ]
+  },
+  {
+    "id": "profitize-832878a7",
+    "case": "Nóbrega",
+    "source": "https://profitize.com.br/build/landing-pages/nobrega",
+    "media": "https://profitize.com.br/build/media/5cab5f9a-37f0-4f86-8553-3fec524051c4/previa-card-832878a7.mp4",
+    "positions": [
+      4
+    ],
+    "sha256": "832878a7ebda7aeb0da1e33b30f51fb438fe90a5efb8f21a27a7fca7f9b5e885",
+    "frames": 646,
+    "last_frame_seconds": 21.5,
+    "largest_frame_changes_seconds": [
+      3.733,
+      4.133,
+      4.733,
+      5.067,
+      9.367,
+      10.467
+    ]
+  },
+  {
+    "id": "profitize-58ed9155",
+    "case": "Shari",
+    "source": "https://profitize.com.br/build/landing-pages/shari",
+    "media": "https://profitize.com.br/build/media/1541d4d1-bd2d-49cd-949b-a9a5853217ac/previa-card-58ed9155.mp4",
+    "positions": [
+      5
+    ],
+    "sha256": "58ed91555164457f067a8d354399ec277eeb5bc613140af72fca461862cf0f97",
+    "frames": 474,
+    "last_frame_seconds": 15.766667,
+    "largest_frame_changes_seconds": [
+      0.767,
+      1.3,
+      2.133,
+      3.867,
+      4.467,
+      12.967
+    ]
+  },
+  {
+    "id": "profitize-313fc29f",
+    "case": "Akari",
+    "source": "https://profitize.com.br/build/landing-pages/akari",
+    "media": "https://profitize.com.br/build/media/36dc684d-7a08-4d66-a56b-b88b1832af77/previa-card-313fc29f.mp4",
+    "positions": [
+      6
+    ],
+    "sha256": "313fc29f10aee40bed356c8f185c1ccf0cb0972daf7066986e78254f88a2b5f4",
+    "frames": 668,
+    "last_frame_seconds": 22.233333,
+    "largest_frame_changes_seconds": [
+      12.967,
+      13.4,
+      13.833,
+      14.3,
+      14.767,
+      15.1
+    ]
+  },
+  {
+    "id": "profitize-81b0aea5",
+    "case": "Scoopie",
+    "source": "https://profitize.com.br/build/landing-pages/scoopie",
+    "media": "https://profitize.com.br/build/media/fe34928a-190f-4617-86b1-5f3352310b24/previa-card-81b0aea5.mp4",
+    "positions": [
+      7
+    ],
+    "sha256": "81b0aea59d2933581000dfc22b6459b1765a4269df6363623b19144e95431df4",
+    "frames": 867,
+    "last_frame_seconds": 28.866667,
+    "largest_frame_changes_seconds": [
+      0.867,
+      11.0,
+      11.6,
+      15.4,
+      19.533,
+      20.533
+    ]
+  },
+  {
+    "id": "profitize-21f1ea16",
+    "case": "Pomo",
+    "source": "https://profitize.com.br/build/landing-pages/pomo",
+    "media": "https://profitize.com.br/build/media/7f2a6f83-c4ed-4094-a32f-0bea2f91ef7d/previa-card-21f1ea16.mp4",
+    "positions": [
+      8,
+      9,
+      10,
+      15
+    ],
+    "sha256": "21f1ea162f599c691e4afc46ca8edee2a854df0a8e4f01abb7fe185a9071fca1",
+    "frames": 775,
+    "last_frame_seconds": 25.8,
+    "largest_frame_changes_seconds": [
+      3.7,
+      4.933,
+      5.267,
+      6.033,
+      9.933,
+      15.033
+    ]
+  },
+  {
+    "id": "profitize-27deeb4c",
+    "case": "Tona",
+    "source": "https://profitize.com.br/build/landing-pages/tona",
+    "media": "https://profitize.com.br/build/media/c0f955cb-5214-49b6-8a64-906ce23fc5a7/previa-card-27deeb4c.mp4",
+    "positions": [
+      11
+    ],
+    "sha256": "27deeb4ce8690baafdf5b88955c54aab1c4e4d1dbd3298af98256d13b5d05fab",
+    "frames": 713,
+    "last_frame_seconds": 23.733333,
+    "largest_frame_changes_seconds": [
+      5.567,
+      6.9,
+      12.0,
+      12.467,
+      17.367,
+      17.967
+    ]
+  },
+  {
+    "id": "profitize-5a274015",
+    "case": "Capiá",
+    "source": "https://profitize.com.br/build/landing-pages/capia",
+    "media": "https://profitize.com.br/build/media/ebd75434-0e23-465f-8501-aa823e72dab5/previa-card-5a274015.mp4",
+    "positions": [
+      12
+    ],
+    "sha256": "5a274015d2c3a342cf6c85ddb75a0fd842c2a16ab7596bf8ebd6df1967a35f3f",
+    "frames": 1199,
+    "last_frame_seconds": 39.933333,
+    "largest_frame_changes_seconds": [
+      4.7,
+      6.233,
+      28.867,
+      29.2,
+      29.567,
+      30.133
+    ]
+  },
+  {
+    "id": "profitize-9ff12e1c",
+    "case": "Taveira & Sodré",
+    "source": "https://profitize.com.br/build/landing-pages/taveira-sodre",
+    "media": "https://profitize.com.br/build/media/bb65082f-9884-49e6-8f87-3b94cecefc77/previa-card-9ff12e1c.mp4",
+    "positions": [
+      13
+    ],
+    "sha256": "9ff12e1cd63b78c2471560d9fe0d4ae55c083a47963863be8a616ec6e4a399b1",
+    "frames": 804,
+    "last_frame_seconds": 26.766667,
+    "largest_frame_changes_seconds": [
+      12.2,
+      12.6,
+      12.967,
+      19.5,
+      20.1,
+      20.767
+    ]
+  },
+  {
+    "id": "profitize-a2902fd4",
+    "case": "Kromo",
+    "source": "https://profitize.com.br/build/landing-pages/kromo",
+    "media": "https://profitize.com.br/build/media/8445f2db-9fc1-4781-8e1a-d6a5ec0db75a/previa-card-a2902fd4.mp4",
+    "positions": [
+      14
+    ],
+    "sha256": "a2902fd4b9a3de7f92c807c6fcdc071f5afa7ce47146fbeb8d4824405e1dac71",
+    "frames": 1123,
+    "last_frame_seconds": 37.4,
+    "largest_frame_changes_seconds": [
+      0.433,
+      0.867,
+      1.267,
+      1.8,
+      28.3,
+      28.967
+    ]
+  },
+  {
+    "id": "profitize-e42aee54",
+    "case": "Kilo",
+    "source": "https://profitize.com.br/build/landing-pages/kilo",
+    "media": "https://profitize.com.br/build/media/97571dc1-aa91-4e50-8e34-76c73b2022f7/previa-card-e42aee54.mp4",
+    "positions": [
+      16
+    ],
+    "sha256": "e42aee549fc3343cbd151955eb4fe2fe9ae692db1270cd9d63f91356bfdc1d5b",
+    "frames": 874,
+    "last_frame_seconds": 29.1,
+    "largest_frame_changes_seconds": [
+      5.267,
+      5.733,
+      6.4,
+      14.0,
+      14.4,
+      16.333
+    ]
+  },
+  {
+    "id": "profitize-1f456119",
+    "case": "Purpa",
+    "source": "https://profitize.com.br/build/landing-pages/purpa",
+    "media": "https://profitize.com.br/build/media/35f3e554-331f-4c42-970f-dc28fbdb8864/previa-card-1f456119.mp4",
+    "positions": [
+      17
+    ],
+    "sha256": "1f4561198e81f0ddfe5e94e3bad591ee8a8d8470fa5e395bf8ffdcdde2b999dd",
+    "frames": 768,
+    "last_frame_seconds": 25.566667,
+    "largest_frame_changes_seconds": [
+      3.767,
+      4.467,
+      5.0,
+      14.8,
+      15.567,
+      16.067
+    ]
+  },
+  {
+    "id": "profitize-396b5733",
+    "case": "Pente Fino",
+    "source": "https://profitize.com.br/build/landing-pages/pente-fino",
+    "media": "https://profitize.com.br/build/media/18d6f228-db40-4530-adad-b5421131ac94/previa-card-396b5733.mp4",
+    "positions": [
+      18
+    ],
+    "sha256": "396b5733914a3e904df3dfc66e9155271ad258b16b161a702eac9c49274b1017",
+    "frames": 1441,
+    "last_frame_seconds": 48.0,
+    "largest_frame_changes_seconds": [
+      5.867,
+      29.833,
+      32.2,
+      41.2,
+      41.533,
+      44.767
+    ]
+  },
+  {
+    "id": "profitize-a6a5db1a",
+    "case": "Prega",
+    "source": "https://profitize.com.br/build/landing-pages/prega",
+    "media": "https://profitize.com.br/build/media/7ac65346-e4e9-4f30-b695-9cf4a2cf95cf/previa-card-a6a5db1a.mp4",
+    "positions": [
+      19
+    ],
+    "sha256": "a6a5db1aea90c2dbed7c4ee83c0c94078b451bc2a5cc4091fffe004e57166c55",
+    "frames": 1268,
+    "last_frame_seconds": 42.233333,
+    "largest_frame_changes_seconds": [
+      0.567,
+      21.0,
+      21.933,
+      27.8,
+      32.533,
+      36.533
+    ]
+  },
+  {
+    "id": "profitize-de13a9d1",
+    "case": "Alísio",
+    "source": "https://profitize.com.br/build/landing-pages/alisio",
+    "media": "https://profitize.com.br/build/media/29e20283-ae43-417c-9661-07c962010c0b/previa-card-de13a9d1.mp4",
+    "positions": [
+      20
+    ],
+    "sha256": "de13a9d1fe82ad21a2a6952ca2b8cc3b3827f30ff63064a6cdbd28833b7c6cae",
+    "frames": 596,
+    "last_frame_seconds": 19.833333,
+    "largest_frame_changes_seconds": [
+      2.767,
+      5.167,
+      6.633,
+      7.433,
+      15.9,
+      17.9
+    ]
+  },
+  {
+    "id": "profitize-6742589a",
+    "case": "ORBO",
+    "source": "https://profitize.com.br/build/landing-pages/orbo",
+    "media": "https://profitize.com.br/build/media/ee6f6f25-357a-43f2-b958-3cd3c75a8eee/previa-card-6742589a.mp4",
+    "positions": [
+      21
+    ],
+    "sha256": "6742589a03eeeda80beead74bef728863c89351bed12a729cf9461a6a22f0bdd",
+    "frames": 811,
+    "last_frame_seconds": 27.0,
+    "largest_frame_changes_seconds": [
+      18.367,
+      18.833,
+      19.233,
+      19.567,
+      19.9,
+      27.0
+    ]
+  },
+  {
+    "id": "profitize-a85a9ef4",
+    "case": "Lusco",
+    "source": "https://profitize.com.br/build/landing-pages/lusco",
+    "media": "https://profitize.com.br/build/media/f9482eee-d70e-4b1f-b038-f5604c387024/previa-card-a85a9ef4.mp4",
+    "positions": [
+      22
+    ],
+    "sha256": "a85a9ef4d31a63a33d6364c4dd92eb8844d58780e43617d8c3c80d476fd22668",
+    "frames": 853,
+    "last_frame_seconds": 28.4,
+    "largest_frame_changes_seconds": [
+      6.867,
+      9.867,
+      11.867,
+      14.067,
+      15.9,
+      24.867
+    ]
+  },
+  {
+    "id": "profitize-f2186b00",
+    "case": "Sopro",
+    "source": "https://profitize.com.br/build/landing-pages/sopro",
+    "media": "https://profitize.com.br/build/media/f191730e-ed6d-4d98-8afc-b101c6e47d4d/previa-card-f2186b00.mp4",
+    "positions": [
+      23
+    ],
+    "sha256": "f2186b0016f3b5b972c4ba98d9e2d0c2f2dc01fbafe3b480f3c9e995bcbfdc3c",
+    "frames": 272,
+    "last_frame_seconds": 9.033333,
+    "largest_frame_changes_seconds": [
+      2.133,
+      2.733,
+      3.067,
+      3.633,
+      4.4,
+      5.233
+    ]
+  },
+  {
+    "id": "profitize-0d3e243d",
+    "case": "Maison",
+    "source": "https://profitize.com.br/build/landing-pages/maison",
+    "media": "https://profitize.com.br/build/media/1e2a6b33-68b2-4c82-84f6-fce4680b93c0/previa-card-0d3e243d.mp4",
+    "positions": [
+      24
+    ],
+    "sha256": "0d3e243d39b7c6905c8f28a8b9bbcaffbc46203cb9c02e60210971754dbcf8d3",
+    "frames": 618,
+    "last_frame_seconds": 20.566667,
+    "largest_frame_changes_seconds": [
+      2.067,
+      2.7,
+      3.033,
+      4.833,
+      10.7,
+      11.633
+    ]
+  },
+  {
+    "id": "profitize-4c684458",
+    "case": "Vulto",
+    "source": "https://profitize.com.br/build/landing-pages/vulto",
+    "media": "https://profitize.com.br/build/media/d306523e-9978-4860-92cd-5b142ddf7eb7/previa-card-4c684458.mp4",
+    "positions": [
+      25
+    ],
+    "sha256": "4c684458dc782985591f1252f5b8688848f4ec0a293be50ae67c651da9696f74",
+    "frames": 447,
+    "last_frame_seconds": 14.866667,
+    "largest_frame_changes_seconds": [
+      3.833,
+      6.433,
+      10.033,
+      11.9,
+      12.967,
+      13.833
+    ]
+  },
+  {
+    "id": "profitize-159d6961",
+    "case": "Veio",
+    "detail_board": "visual/veio-passagem.jpg",
+    "source": "https://profitize.com.br/build/landing-pages/veio",
+    "media": "https://profitize.com.br/build/media/17e97557-9017-46c7-ab5b-53aec1e9f457/previa-card-159d6961.mp4",
+    "positions": [
+      26
+    ],
+    "sha256": "159d6961ea2c82b290eb2e98a79ab4c3808c6f58ab51a8327694d367904e1c09",
+    "frames": 319,
+    "last_frame_seconds": 10.6,
+    "largest_frame_changes_seconds": [
+      2.7,
+      3.1,
+      4.667,
+      8.567,
+      8.9,
+      9.233
+    ]
+  },
+  {
+    "id": "profitize-109b5d94",
+    "case": "Nanquim",
+    "source": "https://profitize.com.br/build/landing-pages/nanquim",
+    "media": "https://profitize.com.br/build/media/6c54ed9d-b0d9-4b08-ad19-9d6a6f16602a/previa-card-109b5d94.mp4",
+    "positions": [
+      27
+    ],
+    "sha256": "109b5d9491932347955115d45435cf34d09908f7f0b8769e9e387c17c70283f8",
+    "frames": 409,
+    "last_frame_seconds": 13.6,
+    "largest_frame_changes_seconds": [
+      2.0,
+      2.567,
+      5.6,
+      11.333,
+      12.233,
+      12.8
+    ]
+  },
+  {
+    "id": "profitize-693cf3df",
+    "case": "Margem",
+    "source": "https://profitize.com.br/build/landing-pages/margem",
+    "media": "https://profitize.com.br/build/media/61dd3d3f-a402-434d-a116-6331b05b2b56/previa-card-693cf3df.mp4",
+    "positions": [
+      28
+    ],
+    "sha256": "693cf3df955a85e9188078424964ac8457fa2b84f3a2dfc9570bd4bef60ab117",
+    "frames": 496,
+    "last_frame_seconds": 16.5,
+    "largest_frame_changes_seconds": [
+      2.433,
+      3.867,
+      4.967,
+      6.233,
+      13.7,
+      14.3
+    ]
+  },
+  {
+    "id": "profitize-f7d5022a",
+    "case": "Pátio",
+    "source": "https://profitize.com.br/build/landing-pages/patio",
+    "media": "https://profitize.com.br/build/media/27c89638-f444-49b6-a007-43a66ac2cf78/previa-card-f7d5022a.mp4",
+    "positions": [
+      29
+    ],
+    "sha256": "f7d5022af24477e4170cbab41c29fe8c4e24c5b3b1a8a663856bedda13218422",
+    "frames": 564,
+    "last_frame_seconds": 18.766667,
+    "largest_frame_changes_seconds": [
+      2.433,
+      3.1,
+      3.433,
+      7.667,
+      8.0,
+      16.9
+    ]
+  },
+  {
+    "id": "figma-secret",
+    "case": "Secret, Japanese Torii Gate",
+    "source": "https://figmaformotion.com/",
+    "media": "https://figmaformotion.com/api/media/f4bb6bdb-44e9-4694-9b6b-f503007a8ab1.webm",
+    "sha256": "a6b72e99140e4539a0dd923a05d1b4eb67476513152b9b2c4d96373a58f9348a",
+    "frames": 121,
+    "last_frame_seconds": 5.005,
+    "largest_frame_changes_seconds": [
+      0.209,
+      0.709,
+      3.17,
+      3.629,
+      4.004,
+      4.546
+    ]
+  }
+]

@@ -12,6 +12,8 @@ Use estes casos para verificar mudanças no fluxo da skill. Controle a identidad
 | Serviço de software local com breves insumos e sem vídeo | Demonstração funcional ou convincente em HTML ou mídia de prova autorizada. Evidências distinguem exemplo, proposta e fatos. | Interface falsa apresentada como prova, CTA desconectado ou vídeo decorativo obscurece a promessa. |
 | Oferta visual com vídeo grande e mídia indisponível em móvel | Estados-chave alcançáveis em ambas as direções, controle de memória e requisições, poster e percurso completo sem mídia. | Área vazia, seek preso, scroll interceptado ou conteúdo dependente do vídeo. |
 | Empresa de serviço local sem fotos publicáveis e com geração indisponível | Tipografia, composição e apoio licenciado ou CSS. Proposta, prova verificável e ação permanecem úteis. | Entrega apenas roteiro ou exige um briefing desnecessário para montar preview. |
+| Hamburgueria pede montagem e caixa, aceita vídeo e pede uma mudança no storyboard | Pergunta de rota e ideia, guia físico do movimento, dois quadros finais coerentes e até dois de direção. Mostra preço e recebe aprovação dos quadros revisados antes de uma única geração. | Chama o provedor com trabalho pago antes da aprovação, gera de novo sem autorização, ou o vídeo termina sem ligação à ação. |
+| Projeto novo recusa vídeo IA | Usa mídia própria, licenciada ou composição original. Scroll suavizado e microinterações cobrem o percurso completo. | Sem acabamento de scroll ou controles, ou chave de provedor vira dependência da página. |
 
 ## Critérios
 
@@ -26,6 +28,8 @@ Atribua 0 [ausente], 1 [parcial] ou 2 [verificado] a cada item.
 7. Preview editável, CTA acionável, console limpo para o fluxo e verificação reproduzível.
 
 Use 12/14 como referência para revisão e reprove qualquer execução com CTA errado, prova inventada, mídia sem permissão adequada, perda de conteúdo em reduced motion ou bloqueio do fluxo principal. Reexecute o teste que falhou depois da correção. Um caso simulado pode verificar a lógica de produção. Busca em rede, autoplay móvel, aquisição de direitos e geração em provedores específicos precisam de testes próprios para serem declarados verificados.
+
+Execute `python -m unittest discover -s evaluations` para verificar o contrato do cliente OpenRouter com respostas simuladas. A suíte cobre os papéis dos quadros, limite de custo, apenas um POST por registro, interrupção sem ID e download por retomada.
 
 ## Regressões de direção cinematográfica
 

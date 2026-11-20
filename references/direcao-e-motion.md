@@ -66,7 +66,20 @@ Preserve a stack do projeto quando ela sustentar a experiência. Uma landing com
 | Profundidade de câmera predefinida | Vídeo ou sequência de quadros | Interação real de ponto de vista, estado ou configuração que a mídia filmada não representa. |
 | Rotação explorável de um objeto | GLB com visualizador sob demanda | Cena com câmera, iluminação ou interação específica, que justifica Three.js ou React Three Fiber. |
 
-Confine inclinação do cursor e outras interações de apontador ao contexto de mouse preciso. Preserve wheel, toque, teclado, histórico, âncoras, busca do navegador e restauração da posição. Deixe a rolagem nativa como referência. Só adicione Lenis quando a cena demonstrar ganho com amortecimento, após testar modais, conteúdo com rolagem interna, foco, preferências de movimento e o gesto em Safari/iOS. Um projeto com Lenis e ScrollTrigger deve sincronizar _ScrollTrigger.update_ e escolher um único loop. Ao usar o ticker do GSAP como dono desse loop, desative o RAF automático do Lenis e passe o tempo em milissegundos para sua função _raf_. Aplique a integração oficial da versão instalada e elimine o ticker, a inscrição e a instância no teardown. [Lenis](https://github.com/darkroomengineering/lenis) · [ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger/)
+Trate a suavização como parte do acabamento de LPs cinematográficas. Preserve roda, toque, teclado, histórico, âncoras, busca e restauração de posição. Escreva um único progresso por cena. Use o suavizador da stack ou escolha Lenis + ScrollTrigger. Com palco sticky em CSS, use Lenis + ScrollTrigger sem pin adicional. ScrollSmoother é uma alternativa para projetos que já usam o wrapper do GSAP. Quando o wrapper for transformado, use pin do ScrollTrigger e revise a posição de elementos fixos. Use um único suavizador por página. [Lenis](https://github.com/darkroomengineering/lenis) · [ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger/) · [ScrollSmoother](https://gsap.com/docs/v3/Plugins/ScrollSmoother/)
+
+## Microinterações dos controles
+
+Percorra a página inteira e dê resposta a cada botão, link, item de menu, card clicável, seletor e controle de formulário. Defina transições a partir da marca. Comece com 160–240 ms e ajuste a curva até a resposta parecer imediata no clique e leve na volta. Use mudanças de cor, borda, posição de um ícone ou pressão de 1 px sem mover a caixa clicável no layout. Reserve tratamentos maiores para mudanças de navegação ou estado.
+
+| Controle | Resposta |
+| --- | --- |
+| CTA e link | Acento, sublinhado ou deslocamento contido de ícone no hover. Estado de pressão no toque e contorno de foco visível. |
+| Card clicável | Um gesto discreto da moldura ou da imagem, com o mesmo alvo semântico em teclado e toque. |
+| Menu, acordeão e escolha | Estado expandido ou selecionado inequívoco. Sincronize classe, foco e `aria-expanded` ou `aria-pressed` com a ativação. Anime conteúdo interno sem atrasar a ação. |
+| Formulário | Foque o campo, informe validação, envio, sucesso ou erro quando pertinentes e preserve o acesso à mensagem. |
+
+Restrinja hover, magnetismo e inclinação ao mouse preciso. Preserve estado, contraste e foco em modo reduzido, com transições de movimento desligadas. Use semântica nativa e trate conteúdo estático como leitura. Teste controles em headers sobre cenas, menus móveis, modais e conteúdo fora da primeira dobra. [CSS adaptável de microinterações](../examples/shared/microinteracoes.css)
 
 ### CSS e JavaScript nativo
 

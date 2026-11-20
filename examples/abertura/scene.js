@@ -1,21 +1,12 @@
 import { mountScrub, segment } from "../shared/scrub.js";
+import { loadScrollMotion } from "../shared/scroll-motion.js";
 
 const track = document.querySelector("[data-track]");
 const stage = track.querySelector("[data-stage]");
-const requested = new URLSearchParams(location.search).get("motor");
-let driver;
-if (requested === "gsap") {
-  try {
-    const [{ gsap }, { ScrollTrigger }] = await Promise.all([
-      import("../node_modules/gsap/index.js"),
-      import("../node_modules/gsap/ScrollTrigger.js"),
-    ]);
-    gsap.registerPlugin(ScrollTrigger);
-    driver = ScrollTrigger;
-  } catch (error) {
-    console.info("GSAP indisponível. Usando o controlador nativo.", error.message);
-  }
-}
+const params = new URLSearchParams(location.search);
+const motion = params.get("motor") === "gsap"
+  ? await loadScrollMotion({ smooth: params.get("suave") !== "0" })
+  : { dispose() {} };
 
 const variableNames = [
   "--progress", "--cut-top", "--cut-right", "--cut-bottom", "--cut-left", "--curve",
@@ -41,11 +32,17 @@ function render(progress) {
   variableNames.forEach((name, index) => track.style.setProperty(name, values[index]));
 }
 
-mountScrub({
+const disposeScrub = mountScrub({
   track,
   stage,
   render,
   reset: () => variableNames.forEach(name => track.style.removeProperty(name)),
   query: "(min-width: 52rem) and (min-height: 40rem) and (prefers-reduced-motion: no-preference)",
-  driver,
+  driver: motion.driver,
+});
+
+addEventListener("pagehide", event => {
+  if (event.persisted) return;
+  disposeScrub();
+  motion.dispose();
 });

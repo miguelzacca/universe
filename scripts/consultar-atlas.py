@@ -54,6 +54,12 @@ def main():
     print("Evidência:", row["evidencia"])
     print("Marcos:", " · ".join(row["amostras"]))
     print("Tons das imagens:", ", ".join(row["amostra_cores"]))
+    film = next((item for item in read("fontes-video.json") if item["id"] == id_), None)
+    if film:
+        print("Clipe original:", film["media"])
+        print("Estudo de continuidade:", CORPUS / "estudo-scroll-video.md")
+        if board := film.get("detail_board"):
+            print("Prancha da passagem:", ROOT / board)
 
     if id_.startswith("profitize-"):
         print("Leitura do caso:", CORPUS / "profitize.md", "·", row["titulo"])

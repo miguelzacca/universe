@@ -4,6 +4,8 @@ Selecione um **gesto a transferir**. Leia a prancha, identifique o motivo preser
 
 Use [consultar-atlas.py](../scripts/consultar-atlas.py) com o nome do caso, por exemplo **python scripts/consultar-atlas.py Torra**. O comando devolve a prancha, os tempos e os arquivos exatos para abrir. Sem argumento, lista os casos.
 
+Para planejar **primeiro quadro, gesto e chegada** de um vídeo, consulte [as leituras de continuidade](corpus/estudo-scroll-video.md). Para recuperar um clipe ou atualizar a análise, use o [manifesto com URLs diretas e SHA-256](corpus/fontes-video.json).
+
 ## Entre pelo problema
 
 | Se o site precisa mostrar | Abra os quadros | Decisão prática |

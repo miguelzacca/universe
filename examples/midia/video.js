@@ -6,7 +6,7 @@ export function mountVideo(video, fps) {
 
   function flush() {
     if (broken || video.seeking || video.readyState < HTMLMediaElement.HAVE_METADATA) return;
-    const time = Math.min(Math.max(0, video.duration - 1 / fps), wanted * video.duration);
+    const time = wanted * Math.max(0, video.duration - 1 / fps);
     if (Number.isFinite(time) && Math.abs(video.currentTime - time) >= .5 / fps) {
       video.currentTime = time;
     } else if (video.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA) {
