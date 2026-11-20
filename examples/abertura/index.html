@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abertura e revelação · Laboratório de motion</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./scene.js"></script>
+  <body>
+    <a class="skip" href="#acabamentos">Ir para os acabamentos</a>
+    <main>
+      <div class="track" data-track>
+        <section class="stage" aria-labelledby="title" data-stage>
+          <div class="window" aria-hidden="true"><div class="clay"></div></div>
+          <div class="line" aria-hidden="true"></div>
+          <div class="copy">
+            <h1 id="title">A superfície muda<br> com <em>a luz.</em></h1>
+            <p>Três acabamentos de cerâmica para comparar pelo toque e pelo brilho.</p>
+            <a class="call" href="#acabamentos">Comparar acabamentos <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="samples" aria-hidden="true" data-revelation>
+            <figure><div class="sample matte"></div><figcaption>Mate</figcaption></figure>
+            <figure><div class="sample satin"></div><figcaption>Acetinado</figcaption></figure>
+            <figure><div class="sample grooved"></div><figcaption>Ranhurado</figcaption></figure>
+          </div>
+        </section>
+      </div>
+      <section class="finishes" id="acabamentos" tabindex="-1" aria-labelledby="finishes-title">
+        <h2 id="finishes-title">O acabamento de perto</h2>
+        <dl>
+          <div><dt><div class="sample matte" aria-hidden="true"></div>Mate</dt><dd>Brilho difuso e textura uniforme.</dd></div>
+          <div><dt><div class="sample satin" aria-hidden="true"></div>Acetinado</dt><dd>Reflexo macio que acompanha a curva.</dd></div>
+          <div><dt><div class="sample grooved" aria-hidden="true"></div>Ranhurado</dt><dd>Linhas em relevo criam sombra lateral.</dd></div>
+        </dl>
+      </section>
+    </main>
+  </body>
+</html>

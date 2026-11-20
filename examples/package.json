@@ -1,0 +1,9 @@
+{
+  "name": "universe-examples",
+  "private": true,
+  "type": "module",
+  "optionalDependencies": {
+    "gsap": "3.15.0",
+    "three": "0.187.0"
+  }
+}

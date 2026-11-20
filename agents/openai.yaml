@@ -1,0 +1,4 @@
+interface:
+  display_name: "Universe"
+  short_description: "Construa landing pages cinematográficas com prova visual"
+  default_prompt: "Use $universe com este link ou projeto. Consulte o atlas, construa uma cena que revele algo da oferta e valide o percurso em desktop e celular."

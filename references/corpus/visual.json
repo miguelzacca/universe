@@ -1,0 +1,747 @@
+[
+  {
+    "id": "arbo",
+    "titulo": "Arbo",
+    "fonte": "https://universedigital.com.br/portfolio/arbo",
+    "evidencia": "Quadros do anexo · implementação conferida no repositório",
+    "visual": "visual/arbo.jpg",
+    "amostras": [
+      "01.00 s",
+      "05.50 s",
+      "10.00 s",
+      "15.00 s",
+      "21.00 s",
+      "26.00 s"
+    ],
+    "amostra_cores": [
+      "#333847",
+      "#bea890",
+      "#0b1017",
+      "#ffffff",
+      "#e1d9d2",
+      "#8f7660"
+    ]
+  },
+  {
+    "id": "aroeira",
+    "titulo": "Aroeira",
+    "fonte": "https://universedigital.com.br/portfolio/aroeira",
+    "evidencia": "Quadros do anexo · implementação conferida no repositório",
+    "visual": "visual/aroeira.jpg",
+    "amostras": [
+      "00.50 s",
+      "03.50 s",
+      "05.50 s",
+      "07.00 s",
+      "10.50 s",
+      "12.00 s"
+    ],
+    "amostra_cores": [
+      "#4b2c11",
+      "#89867d",
+      "#f0e9df"
+    ]
+  },
+  {
+    "id": "fermento",
+    "titulo": "Fermento",
+    "fonte": "https://universedigital.com.br/portfolio/fermento",
+    "evidencia": "Quadros do anexo · implementação conferida no repositório",
+    "visual": "visual/fermento.jpg",
+    "amostras": [
+      "01.00 s",
+      "04.50 s",
+      "09.50 s",
+      "11.00 s",
+      "13.00 s",
+      "15.00 s"
+    ],
+    "amostra_cores": [
+      "#efe5db",
+      "#ae1f1c",
+      "#ce9274",
+      "#110b0b",
+      "#602d1c"
+    ]
+  },
+  {
+    "id": "grau",
+    "titulo": "Grau",
+    "fonte": "https://universedigital.com.br/portfolio/grau",
+    "evidencia": "Quadros do anexo · implementação conferida no repositório",
+    "visual": "visual/grau.jpg",
+    "amostras": [
+      "01.00 s",
+      "03.50 s",
+      "09.50 s",
+      "13.00 s",
+      "16.00 s",
+      "20.50 s"
+    ],
+    "amostra_cores": [
+      "#010101",
+      "#474545",
+      "#deeef4"
+    ]
+  },
+  {
+    "id": "prado",
+    "titulo": "Prado",
+    "fonte": "https://universedigital.com.br/portfolio/prado",
+    "evidencia": "Quadros do anexo · implementação conferida no repositório",
+    "visual": "visual/prado.jpg",
+    "amostras": [
+      "00.60 s",
+      "02.50 s",
+      "05.70 s",
+      "08.50 s",
+      "12.80 s",
+      "16.50 s"
+    ],
+    "amostra_cores": [
+      "#c7e1ee",
+      "#637145",
+      "#a9ad98",
+      "#3e441b"
+    ]
+  },
+  {
+    "id": "sereno",
+    "titulo": "Sereno",
+    "fonte": "https://universedigital.com.br/portfolio/sereno",
+    "evidencia": "Quadros do anexo · implementação conferida no repositório",
+    "visual": "visual/sereno.jpg",
+    "amostras": [
+      "00.60 s",
+      "03.00 s",
+      "05.00 s",
+      "08.50 s",
+      "10.50 s",
+      "13.00 s"
+    ],
+    "amostra_cores": [
+      "#010101",
+      "#481e0f"
+    ]
+  },
+  {
+    "id": "sulko",
+    "titulo": "Sulko",
+    "fonte": "https://universedigital.com.br/portfolio/sulko",
+    "evidencia": "Quadros do anexo · implementação conferida no repositório",
+    "visual": "visual/sulko.jpg",
+    "amostras": [
+      "01.00 s",
+      "04.50 s",
+      "08.50 s",
+      "12.50 s",
+      "15.00 s",
+      "20.50 s"
+    ],
+    "amostra_cores": [
+      "#53241b",
+      "#854f3c",
+      "#a67c6a",
+      "#120e0d"
+    ]
+  },
+  {
+    "id": "torra",
+    "titulo": "Torra",
+    "fonte": "https://universedigital.com.br/portfolio/torra",
+    "evidencia": "Quadros do anexo · implementação conferida no repositório",
+    "visual": "visual/torra.jpg",
+    "amostras": [
+      "01.00 s",
+      "03.50 s",
+      "06.00 s",
+      "08.50 s",
+      "13.50 s",
+      "16.70 s"
+    ],
+    "amostra_cores": [
+      "#0d0b0c",
+      "#5d5753",
+      "#efebe0",
+      "#cdaa8e"
+    ]
+  },
+  {
+    "id": "profitize-166b0578",
+    "titulo": "Uvra",
+    "fonte": "https://profitize.com.br/build/landing-pages/uvra",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-166b0578.jpg",
+    "amostras": [
+      "01.20 s",
+      "04.00 s",
+      "12.00 s",
+      "21.00 s"
+    ],
+    "amostra_cores": [
+      "#180c06",
+      "#574e33",
+      "#7b91a8"
+    ]
+  },
+  {
+    "id": "profitize-a5be3f8a",
+    "titulo": "Solua",
+    "fonte": "https://profitize.com.br/build/landing-pages/solua",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-a5be3f8a.jpg",
+    "amostras": [
+      "04.00 s",
+      "13.00 s",
+      "24.00 s",
+      "48.00 s"
+    ],
+    "amostra_cores": [
+      "#17281f",
+      "#4888c2",
+      "#656349",
+      "#f6f2e9",
+      "#cbb0a3"
+    ]
+  },
+  {
+    "id": "profitize-1524a283",
+    "titulo": "Ollo",
+    "fonte": "https://profitize.com.br/build/landing-pages/ollo",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-1524a283.jpg",
+    "amostras": [
+      "01.00 s",
+      "05.00 s",
+      "17.00 s",
+      "26.00 s"
+    ],
+    "amostra_cores": [
+      "#080809",
+      "#463f3f",
+      "#ebe8e4",
+      "#7f7d7e"
+    ]
+  },
+  {
+    "id": "profitize-832878a7",
+    "titulo": "Nóbrega",
+    "fonte": "https://profitize.com.br/build/landing-pages/nobrega",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-832878a7.jpg",
+    "amostras": [
+      "01.00 s",
+      "04.00 s",
+      "10.00 s",
+      "18.00 s"
+    ],
+    "amostra_cores": [
+      "#0b0c0e",
+      "#626366"
+    ]
+  },
+  {
+    "id": "profitize-58ed9155",
+    "titulo": "Shari",
+    "fonte": "https://profitize.com.br/build/landing-pages/shari",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-58ed9155.jpg",
+    "amostras": [
+      "00.70 s",
+      "03.60 s",
+      "07.00 s",
+      "12.00 s"
+    ],
+    "amostra_cores": [
+      "#d71f2d",
+      "#d2bda6",
+      "#98514b",
+      "#f7eedd",
+      "#4c291c",
+      "#f48260"
+    ]
+  },
+  {
+    "id": "profitize-313fc29f",
+    "titulo": "Akari",
+    "fonte": "https://profitize.com.br/build/landing-pages/akari",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-313fc29f.jpg",
+    "amostras": [
+      "01.00 s",
+      "04.00 s",
+      "09.00 s",
+      "17.00 s"
+    ],
+    "amostra_cores": [
+      "#010101",
+      "#3b373b"
+    ]
+  },
+  {
+    "id": "profitize-81b0aea5",
+    "titulo": "Scoopie",
+    "fonte": "https://profitize.com.br/build/landing-pages/scoopie",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-81b0aea5.jpg",
+    "amostras": [
+      "01.00 s",
+      "07.00 s",
+      "14.00 s",
+      "23.00 s"
+    ],
+    "amostra_cores": [
+      "#db51a3",
+      "#361412",
+      "#7a304e",
+      "#ce0d3a",
+      "#b6736e"
+    ]
+  },
+  {
+    "id": "profitize-21f1ea16",
+    "titulo": "Pomo",
+    "fonte": "https://profitize.com.br/build/landing-pages/pomo",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-21f1ea16.jpg",
+    "amostras": [
+      "01.00 s",
+      "07.00 s",
+      "13.00 s",
+      "22.00 s"
+    ],
+    "amostra_cores": [
+      "#f9f1e4",
+      "#273d2b",
+      "#a89076"
+    ]
+  },
+  {
+    "id": "profitize-27deeb4c",
+    "titulo": "Tona",
+    "fonte": "https://profitize.com.br/build/landing-pages/tona",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-27deeb4c.jpg",
+    "amostras": [
+      "01.00 s",
+      "07.00 s",
+      "12.00 s",
+      "21.00 s"
+    ],
+    "amostra_cores": [
+      "#f7f4f0",
+      "#775744",
+      "#bd9986"
+    ]
+  },
+  {
+    "id": "profitize-5a274015",
+    "titulo": "Capiá",
+    "fonte": "https://profitize.com.br/build/landing-pages/capia",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-5a274015.jpg",
+    "amostras": [
+      "01.00 s",
+      "09.00 s",
+      "18.00 s",
+      "34.00 s"
+    ],
+    "amostra_cores": [
+      "#14130e",
+      "#f2eade",
+      "#915f36",
+      "#f8b21c",
+      "#dc4125"
+    ]
+  },
+  {
+    "id": "profitize-9ff12e1c",
+    "titulo": "Taveira & Sodré",
+    "fonte": "https://profitize.com.br/build/landing-pages/taveira-sodre",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-9ff12e1c.jpg",
+    "amostras": [
+      "01.00 s",
+      "05.00 s",
+      "13.00 s",
+      "24.00 s"
+    ],
+    "amostra_cores": [
+      "#403731",
+      "#665d57",
+      "#e8e5e0"
+    ]
+  },
+  {
+    "id": "profitize-a2902fd4",
+    "titulo": "Kromo",
+    "fonte": "https://profitize.com.br/build/landing-pages/kromo",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-a2902fd4.jpg",
+    "amostras": [
+      "01.00 s",
+      "04.00 s",
+      "12.00 s",
+      "27.00 s"
+    ],
+    "amostra_cores": [
+      "#010101",
+      "#d1c9bf",
+      "#896e60",
+      "#6f4429"
+    ]
+  },
+  {
+    "id": "profitize-e42aee54",
+    "titulo": "Kilo",
+    "fonte": "https://profitize.com.br/build/landing-pages/kilo",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-e42aee54.jpg",
+    "amostras": [
+      "01.00 s",
+      "09.00 s",
+      "17.00 s",
+      "25.00 s"
+    ],
+    "amostra_cores": [
+      "#070707",
+      "#d6d6cc",
+      "#333331",
+      "#8e8e88"
+    ]
+  },
+  {
+    "id": "profitize-1f456119",
+    "titulo": "Purpa",
+    "fonte": "https://profitize.com.br/build/landing-pages/purpa",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-1f456119.jpg",
+    "amostras": [
+      "01.00 s",
+      "06.00 s",
+      "13.00 s",
+      "22.00 s"
+    ],
+    "amostra_cores": [
+      "#7a22e6",
+      "#49156e",
+      "#b77871",
+      "#37080d",
+      "#7b3f50",
+      "#fef6e9"
+    ]
+  },
+  {
+    "id": "profitize-396b5733",
+    "titulo": "Pente Fino",
+    "fonte": "https://profitize.com.br/build/landing-pages/pente-fino",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-396b5733.jpg",
+    "amostras": [
+      "01.00 s",
+      "12.00 s",
+      "25.00 s",
+      "43.00 s"
+    ],
+    "amostra_cores": [
+      "#090909",
+      "#686767",
+      "#e8e6e4"
+    ]
+  },
+  {
+    "id": "profitize-a6a5db1a",
+    "titulo": "Prega",
+    "fonte": "https://profitize.com.br/build/landing-pages/prega",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-a6a5db1a.jpg",
+    "amostras": [
+      "01.00 s",
+      "10.00 s",
+      "24.00 s",
+      "35.00 s"
+    ],
+    "amostra_cores": [
+      "#fdfdfd",
+      "#c4c0bb",
+      "#6d6d68"
+    ]
+  },
+  {
+    "id": "profitize-de13a9d1",
+    "titulo": "Alísio",
+    "fonte": "https://profitize.com.br/build/landing-pages/alisio",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-de13a9d1.jpg",
+    "amostras": [
+      "01.00 s",
+      "05.00 s",
+      "11.00 s",
+      "16.00 s"
+    ],
+    "amostra_cores": [
+      "#cfd3d1",
+      "#29201a",
+      "#1e4f80"
+    ]
+  },
+  {
+    "id": "profitize-6742589a",
+    "titulo": "ORBO",
+    "fonte": "https://profitize.com.br/build/landing-pages/orbo",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-6742589a.jpg",
+    "amostras": [
+      "01.00 s",
+      "05.00 s",
+      "10.00 s",
+      "24.00 s"
+    ],
+    "amostra_cores": [
+      "#182df8",
+      "#08080a",
+      "#787caf",
+      "#f0efeb"
+    ]
+  },
+  {
+    "id": "profitize-a85a9ef4",
+    "titulo": "Lusco",
+    "fonte": "https://profitize.com.br/build/landing-pages/lusco",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-a85a9ef4.jpg",
+    "amostras": [
+      "01.00 s",
+      "09.00 s",
+      "18.00 s",
+      "25.00 s"
+    ],
+    "amostra_cores": [
+      "#0a0a0a",
+      "#565656",
+      "#eae7e2",
+      "#828282"
+    ]
+  },
+  {
+    "id": "profitize-f2186b00",
+    "titulo": "Sopro",
+    "fonte": "https://profitize.com.br/build/landing-pages/sopro",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-f2186b00.jpg",
+    "amostras": [
+      "00.40 s",
+      "01.40 s",
+      "04.30 s",
+      "07.80 s"
+    ],
+    "amostra_cores": [
+      "#f9f9f9",
+      "#1c0709",
+      "#543836"
+    ]
+  },
+  {
+    "id": "profitize-0d3e243d",
+    "titulo": "Maison",
+    "fonte": "https://profitize.com.br/build/landing-pages/maison",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-0d3e243d.jpg",
+    "amostras": [
+      "01.00 s",
+      "06.00 s",
+      "10.00 s",
+      "15.00 s"
+    ],
+    "amostra_cores": [
+      "#936d5a",
+      "#c59472",
+      "#2f2b19",
+      "#674433",
+      "#f1edea"
+    ]
+  },
+  {
+    "id": "profitize-4c684458",
+    "titulo": "Vulto",
+    "fonte": "https://profitize.com.br/build/landing-pages/vulto",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-4c684458.jpg",
+    "amostras": [
+      "00.80 s",
+      "03.20 s",
+      "07.00 s",
+      "12.00 s"
+    ],
+    "amostra_cores": [
+      "#faf9f7",
+      "#cdcbcb",
+      "#161515"
+    ]
+  },
+  {
+    "id": "profitize-159d6961",
+    "titulo": "Veio",
+    "fonte": "https://profitize.com.br/build/landing-pages/veio",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-159d6961.jpg",
+    "amostras": [
+      "00.50 s",
+      "02.50 s",
+      "05.00 s",
+      "09.00 s"
+    ],
+    "amostra_cores": [
+      "#f2f0ec",
+      "#b68a72",
+      "#945d45",
+      "#3e281d"
+    ]
+  },
+  {
+    "id": "profitize-109b5d94",
+    "titulo": "Nanquim",
+    "fonte": "https://profitize.com.br/build/landing-pages/nanquim",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-109b5d94.jpg",
+    "amostras": [
+      "00.60 s",
+      "04.00 s",
+      "07.00 s",
+      "11.00 s"
+    ],
+    "amostra_cores": [
+      "#0d0a0a",
+      "#866e6a",
+      "#5d433c"
+    ]
+  },
+  {
+    "id": "profitize-693cf3df",
+    "titulo": "Margem",
+    "fonte": "https://profitize.com.br/build/landing-pages/margem",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-693cf3df.jpg",
+    "amostras": [
+      "01.00 s",
+      "04.50 s",
+      "09.00 s",
+      "15.00 s"
+    ],
+    "amostra_cores": [
+      "#f3efec",
+      "#b3a79c",
+      "#5d5c50"
+    ]
+  },
+  {
+    "id": "profitize-f7d5022a",
+    "titulo": "Pátio",
+    "fonte": "https://profitize.com.br/build/landing-pages/patio",
+    "evidencia": "Quadros do preview público · técnica descrita na ficha",
+    "visual": "visual/profitize-f7d5022a.jpg",
+    "amostras": [
+      "01.00 s",
+      "05.40 s",
+      "10.60 s",
+      "16.00 s"
+    ],
+    "amostra_cores": [
+      "#f8f8f6",
+      "#4e452f",
+      "#948d78",
+      "#141414"
+    ]
+  },
+  {
+    "id": "figma-secret",
+    "titulo": "Secret · Japanese Torii Gate",
+    "fonte": "https://figmaformotion.com/#templates",
+    "evidencia": "Quadros do WebM · material pré-renderizado",
+    "visual": "visual/figma-secret.jpg",
+    "amostras": [
+      "00.00 s",
+      "00.76 s",
+      "02.40 s",
+      "04.65 s"
+    ],
+    "amostra_cores": [
+      "#193c39",
+      "#720d1c",
+      "#01080c"
+    ]
+  },
+  {
+    "id": "kyvo",
+    "titulo": "KYVO",
+    "fonte": "https://studionextlevel.com.br/kyvo/",
+    "evidencia": "runtime",
+    "visual": "visual/kyvo.jpg",
+    "amostras": [
+      "0% do prólogo",
+      "32% do prólogo",
+      "75% do prólogo",
+      "99% do prólogo"
+    ],
+    "amostra_cores": [
+      "#c0dda3",
+      "#090f0f",
+      "#dfe5e1",
+      "#8a9d80"
+    ]
+  },
+  {
+    "id": "digigo",
+    "titulo": "DigiGo Oly",
+    "fonte": "https://digigo-oly.webflow.io/",
+    "evidencia": "runtime",
+    "visual": "visual/digigo.jpg",
+    "amostras": [
+      "Abertura",
+      "Amostra intermediária I",
+      "Amostra intermediária II",
+      "Fechamento"
+    ],
+    "amostra_cores": [
+      "#fcfef6",
+      "#989f9c"
+    ]
+  },
+  {
+    "id": "figma-motion",
+    "titulo": "Figma for Motion",
+    "fonte": "https://figmaformotion.com/",
+    "evidencia": "runtime",
+    "visual": "visual/figma-motion.jpg",
+    "amostras": [
+      "Abertura",
+      "Amostra intermediária I",
+      "Amostra intermediária II",
+      "Fechamento"
+    ],
+    "amostra_cores": [
+      "#0d0d0d",
+      "#e2efd5",
+      "#888e92",
+      "#423844"
+    ]
+  },
+  {
+    "id": "universe",
+    "titulo": "Universe Digital",
+    "fonte": "https://universedigital.com.br/",
+    "evidencia": "runtime",
+    "visual": "visual/universe.jpg",
+    "amostras": [
+      "Home",
+      "22% de scroll",
+      "48% de scroll",
+      "76% de scroll"
+    ],
+    "amostra_cores": [
+      "#000000",
+      "#6e6459",
+      "#2b2a29"
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luz sobre o relevo · Laboratório de motion</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./scene.js"></script>
+  <main>
+    <div class="track" data-track>
+      <section class="stage" data-stage aria-labelledby="title">
+        <div class="view">
+          <img src="./media/poster.webp" width="640" height="360" alt="Placa de cerâmica com sulcos finos realçados por luz oblíqua.">
+          <video muted playsinline preload="none" data-src="./media/argila.mp4" hidden aria-hidden="true"></video>
+          <canvas width="640" height="360" hidden aria-hidden="true"></canvas>
+        </div>
+        <div class="copy">
+          <h1 id="title">Luz sobre <em>o relevo.</em></h1>
+          <p>A luz atravessa a peça. Observe a sombra de cada sulco.</p>
+          <a href="#relevo">Ler sobre a superfície ↓</a>
+        </div>
+      </section>
+    </div>
+    <section class="proof" id="relevo" tabindex="-1">
+      <h2>Uma textura projetada para a luz lateral</h2>
+      <p>A luz oblíqua lança uma sombra fina. Ao mudar a incidência, a leitura passa das cristas claras para os sulcos.</p>
+    </section>
+  </main>
+</html>

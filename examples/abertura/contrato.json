@@ -1,0 +1,31 @@
+{
+  "track":"[data-track]",
+  "stage":"[data-stage]",
+  "heading":"#title",
+  "next":"#finishes-title",
+  "cta":".call",
+  "destination":"#acabamentos",
+  "mobileSteps":[
+    {"id":"mate","selector":"#acabamentos dl > div:nth-child(1)"},
+    {"id":"acetinado","selector":"#acabamentos dl > div:nth-child(2)"},
+    {"id":"ranhurado","selector":"#acabamentos dl > div:nth-child(3)"}
+  ],
+  "marks":[
+    {"id":"00-abertura","position":0,"metrics":[
+      {"selector":"[data-track]","property":"--cut-left","min":48,"max":50},
+      {"selector":"[data-revelation]","property":"opacity","max":0.03}
+    ]},
+    {"id":"35-transformacao","position":0.35,"metrics":[
+      {"selector":"[data-track]","property":"--cut-left","min":15,"max":29},
+      {"selector":"[data-revelation]","property":"opacity","max":0.03}
+    ]},
+    {"id":"70-revelacao","position":0.70,"metrics":[
+      {"selector":"[data-track]","property":"--cut-left","max":0.03},
+      {"selector":"[data-revelation]","property":"opacity","min":0.52,"max":0.75}
+    ]},
+    {"id":"98-saida","position":0.98,"metrics":[
+      {"selector":"[data-track]","property":"--cut-left","max":0.03},
+      {"selector":"[data-revelation]","property":"opacity","min":0.97}
+    ]}
+  ]
+}

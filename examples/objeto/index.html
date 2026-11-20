@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-BR">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Perfil e material · Laboratório de motion</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./scene.js"></script>
+  <main class="page">
+    <div class="surface" data-view aria-hidden="true">
+      <div class="poster"></div>
+    </div>
+    <section class="copy" aria-labelledby="title">
+      <h1 id="title" tabindex="-1">A forma sob <em>outro ângulo.</em></h1>
+      <p>Um recorte na borda deixa a espessura visível. Compare a peça de frente e em três quartos.</p>
+      <button type="button" data-load hidden>Ativar vista 3D</button>
+      <div class="views" data-views hidden>
+        <button type="button" data-pose="front" aria-pressed="true">De frente</button>
+        <button type="button" data-pose="angle" aria-pressed="false">Três quartos</button>
+      </div>
+      <p role="status" data-status></p>
+      <dl>
+        <dt>De frente</dt><dd>Veja a abertura e a continuidade da borda.</dd>
+        <dt>Três quartos</dt><dd>Veja a espessura do material e o recorte lateral.</dd>
+      </dl>
+    </section>
+  </main>
+</html>
